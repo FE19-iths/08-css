@@ -1,0 +1,17 @@
+:root {
+    --image-border: 3px dashed hotpink;
+}
+
+.unicorn-container {
+
+}
+
+.unicorn-container img {
+    width: 15em;
+    border: var(--image-border);
+}
+
+.somewhere-else {
+    border: var(--image-border);
+    border-color: black;
+}
