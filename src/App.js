@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import UnicornImage from './components/UnicornImage';
 import AlternativeUnicorn from './components/AlternativeUnicorn';
+import OnOffButton from './components/OnOffButton';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <div className="somewhere-else">
                     this is not a unicorn
                 </div>
+                <OnOffButton />
             </main>
         </div>
     );
