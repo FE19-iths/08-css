@@ -9,9 +9,15 @@ const StyledButton = styled.button`
     color: white;
     padding: 0.3em 1em;
     border: none;
+    outline: none;
 
     &:hover {
         cursor: pointer;
+    }
+
+    @media (max-width: 400px) {
+        /* background-color: red; */
+        font-size: 1.2em;
     }
 `;
 // man kan använda CSS-variabler också!
